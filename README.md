@@ -478,7 +478,7 @@ For API endpoint changes:
 - **Documentation**: Check the README and inline code comments
 - **Issues**: Search existing issues or create a new one
 - **Discussions**: Use GitHub Discussions for general questions
-- **Contact**: Reach out to maintainers at [your-email@example.com]
+- **Contact**: Reach out to maintainers at mkyelugift@gmail.com
 
 ### License
 
