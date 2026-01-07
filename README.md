@@ -1,4 +1,4 @@
-# Vwaza Release Manager (VRMS)
+# Muzik Release Manager (VRMS)
 
 A full stack application designed to enable artists in managing their music releases and provide administrators with tools to review and publish content. This project uses a modern web application architecture using Fastify for the backend, React for the frontend, PostgreSQL as the database, and Cloudinary for  media storage.
 
@@ -111,8 +111,8 @@ Before you begin, ensure you have the following installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/g1ftmkyelu/vwaza-release-manager.git
-cd vwaza-release-manager
+git clone https://github.com/g1ftmkyelu/muzik-release-manager.git
+cd muzik-release-manager
 ```
 
 ### 2. Environment Variables
@@ -125,7 +125,7 @@ NODE_ENV=development
 PORT=6155
 
 # PostgreSQL Database
-DATABASE_URL=postgresql://username:passwor@localhost:5432/vwaza_dbms
+DATABASE_URL=postgresql://username:passwor@localhost:5432/muzik_dbms
 
 # JWT Secret - MUST be at least 32 characters long for security
 JWT_SECRET=supersecretjwtkeythatisatleast32charslong
@@ -141,7 +141,7 @@ Also, create a client/.env file based on client/.env.example:
 ```env
 # client/.env in client directory
 VITE_API_BASE_URL=http://localhost:6155
-VITE_APP_NAME=Vwaza Release Manager
+VITE_APP_NAME=muzik Release Manager
 ```
 
 ### 3. Install Dependencies
